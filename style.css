@@ -13,6 +13,12 @@
   --texto: white;
 }
 
+body{
+  background-image: url('imagens/bg.png');
+  text-align: center;
+  color: var(--texto);
+}
+
 header{
   background-color: var(--corBarraNarregacao);
   text-align: center;
