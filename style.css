@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
 *{
   padding: 0; 
   margin: 0; 
@@ -47,10 +49,11 @@ a{
 }
 
 .boxProduto{
-width: 890px;
+max-width: 890px;
 background-color: var(--corBox);
 border-radius: 10px;
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 justify-content: space-evenly;
 padding: 20px;
@@ -65,6 +68,7 @@ padding: 20px;
   flex-direction: column;
   text-align: start;
   justify-content: center;
+  max-width: 450px;
 }
 
 h1, h2, h3, p, button{
@@ -73,6 +77,7 @@ h1, h2, h3, p, button{
 
 h2{
   color: var(--subTituloEbotoes);
+  font-family: 'Bowlby One SC', cursive;
 }
 
 .btn{
